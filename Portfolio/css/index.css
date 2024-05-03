@@ -102,6 +102,8 @@ ul li {
 
 .nav-menu {
     display: none;
+    height: 0;
+    transition: all .3s linear;
 }
 
 .nav-menu.active {
@@ -779,7 +781,7 @@ a {
     }
 
     .w-ex {
-        width: 95%;
+        width: 100%;
     }
 
     .content h4 {
@@ -931,7 +933,7 @@ a {
     }
 
     .w-ex {
-        width: 68%;
+        width: 100%;
         margin-bottom: 20px;
     }
 
