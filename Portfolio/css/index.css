@@ -760,8 +760,8 @@ a {
     }
 
     .bg-vid {
-        max-width: 161%;
-        object-fit: cover;
+        max-width: 100%;
+      
     }
 
     .content h3 {
@@ -900,8 +900,7 @@ a {
     }
 
     .bg-vid {
-        max-width: 250%;
-        object-fit: cover;
+        max-width: 100%;
     }
 
     .container {
