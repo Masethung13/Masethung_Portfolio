@@ -107,6 +107,7 @@ ul li {
 .nav-menu.active {
     width: 100vh;
     height: 100vh;
+    max-width: 100%;
     background: rgb(14 137 255);
     position: fixed;
     z-index: 5;
@@ -115,7 +116,7 @@ ul li {
 }
 
 .nav-menu a {
-   
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,6 +201,7 @@ ul li {
     min-height: 100%;
     z-index: -2;
     background-attachment: fixed;
+    object-fit: cover;
     background-size: cover;
 }
 
@@ -759,7 +761,7 @@ a {
 
     .bg-vid {
         max-width: 161%;
-        overflow: hidden;
+        object-fit: cover;
     }
 
     .content h3 {
@@ -857,8 +859,8 @@ a {
     }
 
     .skill-img li img {
-        width: 40px;
-        padding: 2px 3px;
+        max-width: 40px;
+        padding: 2px 20px;
     }
 
     .df {
@@ -899,6 +901,7 @@ a {
 
     .bg-vid {
         max-width: 250%;
+        object-fit: cover;
     }
 
     .container {
@@ -918,7 +921,7 @@ a {
     }
 
     .mbl-res {
-        width: 100%;
+        max-width: 100%;
         display: flex;
         justify-content: center;
         margin-bottom: 35px;
@@ -934,12 +937,12 @@ a {
     }
 
     .res-w {
-        width: 95%;
-        justify-content: space-evenly;
+        max-width: 90%;
     }
 
     .box {
-        width: 55%;
+        min-width: 67%;
+        min-height: 100%;
     }
 
     .menu {
