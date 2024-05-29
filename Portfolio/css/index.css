@@ -206,7 +206,9 @@ ul li {
     object-fit: cover;
     background-size: cover;
 }
-
+.sk-w{
+    max-width:100%;
+}
 .jce {
     justify-content: space-evenly;
 }
@@ -287,7 +289,7 @@ ul li {
 .round-animation::before {
     content: '';
     position: absolute;
-    width: 40%;
+    width: 70%;
     z-index: -2;
     height: 472px;
     background-color: #09b8ff;
@@ -811,7 +813,7 @@ a {
     }
 
     .round-animation::before {
-        width: 30%;
+        width: 70%;
         height: 312px;
     }
 
@@ -889,6 +891,8 @@ a {
 
     body {
         overflow-x: hidden;
+        overflow-y: auto;
+        /* position: absolute; */
     }
 
     .logo img {
