@@ -254,10 +254,10 @@ ul li {
 
 .hov-img {
     position: absolute;
-    top: 7px;
-    right: 10px;
-    width: 370px;
-    border-radius: 0% 0% 52% 53%;
+    top: -50px;
+    right: 15px;
+    width: 330px;
+    border-radius: 0% 0% 49% 37%;
     cursor: pointer;
     z-index: 2;
 }
@@ -304,6 +304,27 @@ ul li {
     background-color: rgba(0, 0, 0);
     border-radius: 50%;
     z-index: -1;
+}
+.in-w{
+  width: 50%;
+  height: 20px;
+}
+.btn1{
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    width: 50%;
+    color: black;
+    background-color: white;
 }
 
 @keyframes rotate {
@@ -353,7 +374,7 @@ a {
     width: 60px;
     aspect-ratio: 12 / 10;
     border-radius: 50%;
-    padding: 12 10px;
+    padding: 12px 10px;
     transition: all .3s ease-in-out;
 }
 
@@ -391,7 +412,56 @@ a {
     width: 110%;
 }
 
+/* <---contact css-->> */
 
+.contact-container {
+    background-color: black;
+    padding: 58px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px #09b8ff;
+    width: 451px;
+    margin: 0 auto;
+  }
+  
+  .contact-container h1 {
+    text-align: center;
+  }
+  .f-w h3{
+    font-size: 21px;
+    color: #09b8ff;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    width: 92%;
+    padding: 12px;
+    margin-top: 22px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .cnt-me{
+    margin-left: 57px;
+  }
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  
+  
+  #responseMessage {
+    text-align: center;
+    color: green;
+  }
 /* <---->>> */
 
 
@@ -471,11 +541,11 @@ a {
 
 .bg-border img {
     position: absolute;
-    aspect-ratio: 8 / 10;
-    width: 100%;
-    top: -87px;
-    left: -2px;
-    border-radius: 0% 53% 53% 56%;
+    aspect-ratio: 9 / 8;
+    width: 375px;
+    top: 7px;
+    left: -12px;
+    border-radius: 0% 33% 60% 56%;
 
 }
 
@@ -818,7 +888,9 @@ a {
     }
 
     .hov-img {
-        width: 273px;
+        width: 243px;
+        top: -35px;
+
     }
 
     .bg-border {
@@ -833,8 +905,9 @@ a {
     }
 
     .bg-border img {
-        width: 110%;
-        left: 3px;
+        width: 107%;
+        left: 12px;
+
 
     }
 
@@ -885,6 +958,13 @@ a {
     .overlay {
         height: 223px;
     }
+    .cnt-me{
+        margin-left: 130px;
+    }
+   .cnt1-w h3{
+    font-size: 18px;
+   }
+
 }
 
 @media screen and (max-width:567px) {
@@ -956,5 +1036,12 @@ a {
 
     .nav {
         display: none;
+    }
+    .contact-container{
+        width: 260px;
+        padding: 35px;
+    }
+    .cnt-me{
+        margin-left: 42px;
     }
 }
